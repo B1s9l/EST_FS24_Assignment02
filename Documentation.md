@@ -1,8 +1,8 @@
 # Documentation.md file for Assignment 2
 ## Climbing stairs ()
-## CourseSchedule ()
+## CourseSchedule (Max)
 ## Find Duplicate (Basil)
-## LongestIncreasingSubsequence ()
+## LongestIncreasingSubsequence (Max)
 ## MergeKSortedLists ()
 ## SortedArray2BST (Gianni)
 ## SumofTwoIntegers (Basil)
