@@ -29,7 +29,7 @@
 ### 3. Testing Contracts
 ### 4. Property-Based Testing
 
-## SortedArray2BST ()
+## SortedArray2BST (Gianni)
 ### 1. Code Coverage
 ### 2. Designing Contracts
 ### 3. Testing Contracts
@@ -41,7 +41,7 @@
 ### 3. Testing Contracts
 ### 4. Property-Based Testing
 
-## UniquePathsGrid ()
+## UniquePathsGrid (Gianni)
 ### 1. Code Coverage
 ### 2. Designing Contracts
 ### 3. Testing Contracts
