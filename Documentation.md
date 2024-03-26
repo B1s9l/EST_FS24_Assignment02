@@ -35,7 +35,7 @@
 ### 3. Testing Contracts
 ### 4. Property-Based Testing
 
-## SumofTwoIntegers (Basil)
+## SumofTwoIntegers (Basil)
 ### 1. Code Coverage
 ### 2. Designing Contracts
 ### 3. Testing Contracts
