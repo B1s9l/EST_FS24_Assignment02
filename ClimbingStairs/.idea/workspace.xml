@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cd62da37-c3b5-4895-bec1-a1d6bf84dce7" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2eUrEt6ndWJi2UE8NiWFnQdlyxH" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "paul-climbingstairs-mergeksortedlists",
+    "last_opened_file_path": "C:/Dateien/EST/assignment02/EST_FS24_Assignment02/ClimbingStairs/pom.xml",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="JUnit.ClimbingStairsTest.less_or_equal_zero">
+    <configuration name="ClimbingStairsTest.larger_input" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="climbingstairs-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="zest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="zest" />
+      <option name="MAIN_CLASS_NAME" value="zest.ClimbingStairsTest" />
+      <option name="METHOD_NAME" value="larger_input(int)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClimbingStairsTest.less_or_equal_zero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="climbingstairs-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="zest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="zest" />
+      <option name="MAIN_CLASS_NAME" value="zest.ClimbingStairsTest" />
+      <option name="METHOD_NAME" value="less_or_equal_zero(int)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClimbingStairsTest.test_91_pre" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="climbingstairs-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="zest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="zest" />
+      <option name="MAIN_CLASS_NAME" value="zest.ClimbingStairsTest" />
+      <option name="METHOD_NAME" value="test_91_pre" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClimbingStairsTest.test_92_pre" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="climbingstairs-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="zest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="zest" />
+      <option name="MAIN_CLASS_NAME" value="zest.ClimbingStairsTest" />
+      <option name="METHOD_NAME" value="test_92_pre" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClimbingStairsTest.test_hundred_pre" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="climbingstairs-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="zest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="zest" />
+      <option name="MAIN_CLASS_NAME" value="zest.ClimbingStairsTest" />
+      <option name="METHOD_NAME" value="test_hundred_pre" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ClimbingStairsTest.less_or_equal_zero" />
+        <item itemvalue="JUnit.ClimbingStairsTest.test_91_pre" />
+        <item itemvalue="JUnit.ClimbingStairsTest.larger_input" />
+        <item itemvalue="JUnit.ClimbingStairsTest.test_92_pre" />
+        <item itemvalue="JUnit.ClimbingStairsTest.test_hundred_pre" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cd62da37-c3b5-4895-bec1-a1d6bf84dce7" name="Changes" comment="" />
+      <created>1711969890467</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1711969890467</updated>
+      <workItem from="1711969891512" duration="8888000" />
+      <workItem from="1712665083583" duration="940000" />
+      <workItem from="1712757011345" duration="5942000" />
+      <workItem from="1712770338128" duration="2756000" />
+      <workItem from="1712838572016" duration="968000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
