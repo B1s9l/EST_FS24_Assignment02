@@ -267,7 +267,6 @@ class MergeKSortedListsTest {
     ){
         List<ListNode> list_of_linked_lists = generate_list_of_head_nodes(size, length);
 
-
         ListNode[] l = list_of_linked_lists.toArray(new ListNode[0]);
 
         List<Integer> expected = new ArrayList<>();
@@ -302,6 +301,24 @@ class MergeKSortedListsTest {
             assertThat(final_runner).isNull();
             assertThat(i).isEqualTo(0);
         }
+
+    }
+
+    @Property
+    void property_too_large_input(
+            @ForAll
+            @IntRange(min=1000, max=2000) int size,
+            @ForAll
+            @IntRange(min=11, max=20) int length
+            ){
+
+        List<ListNode> list_of_linked_lists = generate_list_of_head_nodes(size, length);
+
+        ListNode[] l = list_of_linked_lists.toArray(new ListNode[0]);
+
+        assertThatThrownBy(() -> {
+            obj.mergeKLists(l);
+        }).isInstanceOf(IllegalArgumentException.class).hasMessage("The input contains too many values, at most 10^4");
 
     }
 

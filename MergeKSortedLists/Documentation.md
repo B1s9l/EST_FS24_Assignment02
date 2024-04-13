@@ -42,4 +42,10 @@ The sortedness relies on the java built-in Collections.sort() method.
 To make sure the length of List<Integer> and the return linked list are indeed same, assert statements are added after element-wise comparison.
 This test passes.
 
-The other two @Property tests have identical code, just different input range. Both tests pass.
+The other two @Property sortedness tests have identical code, just different input range. Both tests pass.
+
+To assure input with more than 10000 nodes in total throws an exception, another @Property test is added to test suite.
+This test uses the two @Providers to generate a list of linked lists that contain more than 10000 nodes and checks if calling mergeKLists() with this list as input does indeed throw an exception.
+The @Property test receives a relatively small set of input that should cause an exception, because unbounded input range will significantly increase the running time to perform the testing.
+Even with a maximal input size of 40000 nodes, the test case passes with a running time of over 7 minutes.
+To balance the tradeoff of testing input size and performance, [10001, 40000] is chosen to represent the invalid input range.
