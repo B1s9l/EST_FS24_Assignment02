@@ -22,7 +22,7 @@ The input array is not null.
 ### Example 1:
 
 **Input**: `nums = [-10, -3, 0, 5, 9]`
-**Output**: `[0, -3, 9, -10, null, 5]`
+**Output**: `[0, -10, 5, -3, 9]`
 
 Explanation: The array represents the level order traversal of a BST with root at index 0. The null value indicates no left child for the node with value 9.
 
