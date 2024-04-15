@@ -1,17 +1,11 @@
 package zest;
 
-import org.assertj.core.api.Assertions.*;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
-
 import net.jqwik.api.*;
 import net.jqwik.api.constraints.IntRange;
 import org.junit.jupiter.api.Test;
-
-import java.util.*;
-
 import static org.assertj.core.api.Assertions.*;
-
 public class uniquePathsTest {
 
     private UniquePaths instance;
@@ -82,6 +76,7 @@ public class uniquePathsTest {
     void noOverflowCalculatesCorrectResult(@ForAll @IntRange(min=1, max = 100) int m, @ForAll @IntRange(max=10)int k){
         instance = new UniquePaths();
         int n = m > 69 ? rand(1,7): m > 51 ? rand(1,8) : m > 41 ? rand(1,9) : m > 34 ? rand(1,10) : m > 29 ?rand(1,11): m > 26 ?rand(1,12) : m > 23 ?rand(1,13): m > 21 ? rand(1,14) : m > 20 ?rand(1,15) : m > 18 ? rand(1,16) :rand(1,17);
+        System.out.println("m: " + m + " n: " + n);
         int expected = numberOfPaths(m,n);
         assertThat(instance.uniquePaths(m,n)).isEqualTo(expected);
     }
