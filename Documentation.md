@@ -24,6 +24,7 @@ testnotSorted: verifies that exception is thrown if input array not sorted
 
 As one might realise is that after adding the invariant and postconditions, i cannot achieve 100% branch coverage anymore, since i cannot violate the postconditions and invariants.
 ### 4. Property-Based Testing
+Property 1: I could only identify this property since it can only return a TreeNode, which will always be correct verified by the invariant and pre- and postconditions. The property is that the result is of the correct form and looks as it is supposed to look.
 ## SumofTwoIntegers (Basil)
 ## UniquePathsGrid (Gianni)
 ### 1. Code Coverage
