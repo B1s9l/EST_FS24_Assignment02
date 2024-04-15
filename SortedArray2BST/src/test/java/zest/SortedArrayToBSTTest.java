@@ -1,17 +1,11 @@
 package zest;
 
 import net.jqwik.api.*;
-import net.jqwik.api.arbitraries.ListArbitrary;
-import net.jqwik.api.constraints.IntRange;
-import net.jqwik.api.constraints.Size;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.List;
+import java.util.*;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
@@ -75,11 +69,18 @@ class SortedArrayToBSTTest {
             @ForAll("uniqueSortedIntArray") int[] input
     ){
         instance = new SortedArrayToBST();
-        int[] expected = instance.levelOrderTraversal(instance.sortedArrayToBST(input)).stream().mapToInt(x->x).toArray();
-        int mid = input.length % 2 == 0 ? input.length / 2 -1 : input.length / 2;
-        for(int i = 0; i < input.length; i++){
-            assertThat(expected[i]).isEqualTo(input[mid]);
-    }}
+        TreeNode actual = instance.sortedArrayToBST(input);
+        // 1: must be bst
+        assertThat(isBinarySearchTree(actual)).isTrue();
+        // 2: must be height balanced
+        assertThat(isHeightBalanced(actual)).isTrue();
+        // 3: inOrderTraversal must result in sorted Array
+        assertThat(inorderTraversalProducesSortedArray(actual)).isTrue();
+        // 4: cannot contain duplicate elements
+        assertThat(areElementsUnique(actual)).isTrue();
+        // 5: amount of elements must match original input elements
+        assertThat(countElements(actual)).isEqualTo(input.length);
+    }
     @Provide
     Arbitrary<int[]> uniqueSortedIntArray() {
         return Arbitraries.integers().between(0, 10000)
@@ -88,5 +89,92 @@ class SortedArrayToBSTTest {
                     Arrays.sort(array);
                     return array;
                 });
+    }
+
+    private boolean isBinarySearchTree(TreeNode root) {
+        return isBST(root, Integer.MIN_VALUE, Integer.MAX_VALUE);
+    }
+
+    private boolean isBST(TreeNode node, int minValue, int maxValue) {
+        if (node == null) {
+            return true;
+        }
+
+        if (node.val <= minValue || node.val >= maxValue) {
+            return false;
+        }
+
+        return isBST(node.left, minValue, node.val) &&
+                isBST(node.right, node.val, maxValue);
+    }
+
+    private boolean isHeightBalanced(TreeNode root) {
+        return getHeight(root) != -1;
+    }
+
+    private int getHeight(TreeNode node) {
+        if (node == null) {
+            return 0;
+        }
+
+        int leftHeight = getHeight(node.left);
+        if (leftHeight == -1) {
+            return -1;
+        }
+
+        int rightHeight = getHeight(node.right);
+        if (rightHeight == -1) {
+            return -1;
+        }
+
+        if (Math.abs(leftHeight - rightHeight) > 1) {
+            return -1;
+        }
+
+        return Math.max(leftHeight, rightHeight) + 1;
+    }
+
+    private boolean inorderTraversalProducesSortedArray(TreeNode root) {
+        List<Integer> result = new ArrayList<>();
+        inorderTraversal(root, result);
+        return isSorted(result);
+    }
+
+    private void inorderTraversal(TreeNode node, List<Integer> result) {
+        if (node == null) {
+            return;
+        }
+        inorderTraversal(node.left, result);
+        result.add(node.val);
+        inorderTraversal(node.right, result);
+    }
+
+    private boolean isSorted(List<Integer> list) {
+        for (int i = 1; i < list.size(); i++) {
+            if (list.get(i) < list.get(i - 1)) {
+                return false;
+            }
+        }
+        return true;
+    }
+
+    private boolean areElementsUnique(TreeNode root) {
+        Set<Integer> set = new HashSet<>();
+        return checkUnique(root, set);
+    }
+
+    private boolean checkUnique(TreeNode node, Set<Integer> set) {
+        if (node == null) {
+            return true;
+        }
+        if (set.contains(node.val)) {
+            return false;
+        }
+        set.add(node.val);
+        return checkUnique(node.left, set) && checkUnique(node.right, set);
+    }
+    private int countElements(TreeNode r){
+        if(r == null)return 0;
+        return countElements(r.left) + countElements(r.right) + 1;
     }
 }

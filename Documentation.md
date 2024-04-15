@@ -12,7 +12,7 @@ As a precondition, as specified the readme, the valid length of the array is wit
 
 As an invariant, we can specify that the value of every node to the left must be smaller and every value to the right of a node must be bigger than the node value itself, this should hold throught the entire execution and also at the end. Since I already explicitly evaluate the precondition that the input array is sorted in ascending order, the invariant will always hold since the array is reccursively split up in parts until the middle but not the middle and from the value after the middle, therefor the property of being a BST always holds and verifying this is quite redundant, but done anyway.
 
-As a postcondition, we can specify that the number of nodes within the constructed BST is equal to the length of the input array, additionally it should also be a Binary search tree. Additionally, the resulting tree should differ in hight at most 1. The first postcondition that should always hold is defined within after the BST is constructed, and if its not met, there will be no result. For the third postcondition is redundant to verify aswell, but done anyway. The second post-condition is verified with the invariant.
+As a postcondition, we can specify that the number of nodes within the constructed BST is equal to the length of the input array, additionally it should also be a Binary search tree. Additionally, the resulting tree should differ in hight at most 1. The first postcondition that should always hold is defined after the BST is constructed, and if its not met, there will be no result. For the third postcondition is redundant to verify aswell, but done anyway. The second post-condition is verified with the invariant.
 ### 3. Testing Contracts
 testArrayNull: verifies that exception is thrown if the input array is null
 
@@ -24,7 +24,7 @@ testnotSorted: verifies that exception is thrown if input array not sorted
 
 As one might realise is that after adding the invariant and postconditions, i cannot achieve 100% branch coverage anymore, since i cannot violate the postconditions and invariants.
 ### 4. Property-Based Testing
-Property 1: I could only identify this property since it can only return a TreeNode, which will always be correct verified by the invariant and pre- and postconditions. The property is that the result is of the correct form and looks as it is supposed to look.
+Every result of this function must have 5 properties, 1: it must be a binary search tree, 2: it cannot contain duplicates, 3: its hight can differ at most one, 4: the inorder traversal of the resulting tree must result in a sorted array and 5: the resulting binary tree must have the same number of elements as the input. By verifying all these properties, we know that the resulted tree must be correct.
 ## SumofTwoIntegers (Basil)
 ## UniquePathsGrid (Gianni)
 ### 1. Code Coverage
@@ -35,7 +35,7 @@ As a precondition, as specified in the readme, both m and n have to be within th
 
 As a postcondition, as stated by the readme, it has to return a number within the range [1,INT_MAX], since having a negative amount of paths does conceptually not make sense. Additionally, since the exercise makes us of the data-type Integer, the largest number which makes sense as a result is INT_MAX, because if it exceeds this number, the result will be wrong due to int overflow, possibly also resulting in a negative number or a positive wrong result, in my example I check this within the invariant, because in the last iteration the invariant is checked aswell and verifies that the result is <= INT_Max.
 
-As an invariant, one can check at the beginning of every iteration, whether the addition of the two numbers results in a number which is less than or equal to INT_MAX, and if it exceeds this number, one could throw an exception indicating that the result cannot be calculated with this function. Changing the data type to long will not fix the problem, because the overflow just starts later. If one does really want to be able to input two numbers which are 100, one could consider changing the type to BigInteger, which will always yield the correct result, but using the BigInteger type results in a huge Performance loss.
+As an invariant, one can check at the beginning of every iteration, whether the addition of the two numbers results in a number which is less than or equal to INT_MAX, and if it exceeds this number, one could throw an exception indicating that the result cannot be calculated with this function. Changing the data type to long will not fix the problem, because the overflow just starts later. If one does really want to be able to input two numbers which are 100, one could consider changing the type to BigInteger, which will always yield the correct result, but using the BigInteger class results in a huge Performance loss.
 
 ### 3. Testing Contracts
 

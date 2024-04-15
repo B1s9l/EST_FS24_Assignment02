@@ -12,8 +12,6 @@ class TreeNode {
 }
 
 public class SortedArrayToBST {
-    private int lengthOfArray;
-
     private boolean checkArraySorted(int[] arr){
         if(arr.length < 2) return true;
         for(int i = 1; i < arr.length; i++){
@@ -84,7 +82,7 @@ public class SortedArrayToBST {
         int mid = left + (right - left) / 2;
         zest.TreeNode node = new zest.TreeNode(nums[mid]);
         if(!isBSTConstructed(node))throw new IllegalArgumentException("tree not actual bst anymore");
-        node.left = constructBSTRecursive(nums, left, mid - 1);
+        node.left = constructBSTRecursive(nums, left, mid-1);
         node.right = constructBSTRecursive(nums, mid + 1, right);
         if (!isBSTConstructed(node)) {
             throw new IllegalStateException("Invariant violated: Tree is not balanced after subtree construction");
