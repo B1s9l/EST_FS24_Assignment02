@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="CourseSchedule" />
+        <module name="ClimbingStairs" />
+        <module name="UniquePathsGrid" />
+        <module name="SumofTwoIntegers" />
+        <module name="MergeKSortedLists" />
+        <module name="FindDuplicate" />
+        <module name="SortedArray2BST" />
+        <module name="LongestIncreasingSubsequence" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>
