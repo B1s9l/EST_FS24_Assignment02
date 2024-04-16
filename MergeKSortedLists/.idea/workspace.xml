@@ -4,7 +4,44 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="75ebdd93-86ee-4f8e-b6f4-b3a3e1afd871" name="Changes" comment="" />
+    <list default="true" id="75ebdd93-86ee-4f8e-b6f4-b3a3e1afd871" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../ClimbingStairs/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClimbingStairs/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClimbingStairs/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClimbingStairs/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClimbingStairs/.jqwik-database" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClimbingStairs/Assets/Screenshot 2024-04-02 124236.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ClimbingStairs/Documentation.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.jqwik-database" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Screenshot 2024-04-02 133301.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Screenshot 2024-04-02 133330.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Documentation.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SortedArray2BST/Assets/AllTestsRun.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SortedArray2BST/Assets/Screenshot1_beforeContracts.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SortedArray2BST/Assets/Screenshot2_afterContracts.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UniquePathsGrid/Assets/AlltestsRun.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UniquePathsGrid/Assets/Screenshot1_beforeAddingBoundaries.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UniquePathsGrid/Assets/Screenshot2_afterAddingBoundaries.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClimbingStairs/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ClimbingStairs/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClimbingStairs/src/main/java/zest/ClimbingStairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ClimbingStairs/src/main/java/zest/ClimbingStairs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClimbingStairs/src/test/java/zest/ClimbingStairsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ClimbingStairs/src/test/java/zest/ClimbingStairsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Documentation.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Documentation.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/zest/MergeKSortedLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zest/MergeKSortedLists.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/zest/MergeKSortedListsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/zest/MergeKSortedListsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SortedArray2BST/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../SortedArray2BST/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SortedArray2BST/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SortedArray2BST/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SortedArray2BST/src/main/java/zest/SortedArrayToBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SortedArray2BST/src/main/java/zest/SortedArrayToBST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SortedArray2BST/src/test/java/zest/SortedArrayToBSTTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SortedArray2BST/src/test/java/zest/SortedArrayToBSTTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UniquePathsGrid/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../UniquePathsGrid/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UniquePathsGrid/src/main/java/zest/uniquePaths.java" beforeDir="false" afterPath="$PROJECT_DIR$/../UniquePathsGrid/src/main/java/zest/uniquePaths.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UniquePathsGrid/src/test/java/zest/uniquePathsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../UniquePathsGrid/src/test/java/zest/uniquePathsTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,12 +55,12 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "paul891112"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;paul891112&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -48,7 +85,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "paul-climbingstairs-mergeksortedlists",
+    "git-widget-placeholder": "Merging main",
     "last_opened_file_path": "C:/Dateien/EST/assignment02/EST_FS24_Assignment02/ClimbingStairs/pom.xml",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
