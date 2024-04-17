@@ -5,42 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="75ebdd93-86ee-4f8e-b6f4-b3a3e1afd871" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../ClimbingStairs/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ClimbingStairs/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ClimbingStairs/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ClimbingStairs/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ClimbingStairs/.jqwik-database" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ClimbingStairs/Assets/Screenshot 2024-04-02 124236.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ClimbingStairs/Documentation.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.jqwik-database" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Screenshot 2024-04-02 133301.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Screenshot 2024-04-02 133330.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Documentation.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SortedArray2BST/Assets/AllTestsRun.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SortedArray2BST/Assets/Screenshot1_beforeContracts.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SortedArray2BST/Assets/Screenshot2_afterContracts.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UniquePathsGrid/Assets/AlltestsRun.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UniquePathsGrid/Assets/Screenshot1_beforeAddingBoundaries.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UniquePathsGrid/Assets/Screenshot2_afterAddingBoundaries.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClimbingStairs/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ClimbingStairs/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClimbingStairs/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ClimbingStairs/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClimbingStairs/Documentation.md" beforeDir="false" afterPath="$PROJECT_DIR$/../ClimbingStairs/Documentation.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ClimbingStairs/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ClimbingStairs/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ClimbingStairs/src/main/java/zest/ClimbingStairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ClimbingStairs/src/main/java/zest/ClimbingStairs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ClimbingStairs/src/test/java/zest/ClimbingStairsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ClimbingStairs/src/test/java/zest/ClimbingStairsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Documentation.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Documentation.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/zest/MergeKSortedLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zest/MergeKSortedLists.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/zest/MergeKSortedListsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/zest/MergeKSortedListsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SortedArray2BST/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../SortedArray2BST/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SortedArray2BST/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SortedArray2BST/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SortedArray2BST/src/main/java/zest/SortedArrayToBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SortedArray2BST/src/main/java/zest/SortedArrayToBST.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SortedArray2BST/src/test/java/zest/SortedArrayToBSTTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SortedArray2BST/src/test/java/zest/SortedArrayToBSTTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UniquePathsGrid/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../UniquePathsGrid/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UniquePathsGrid/src/main/java/zest/uniquePaths.java" beforeDir="false" afterPath="$PROJECT_DIR$/../UniquePathsGrid/src/main/java/zest/uniquePaths.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UniquePathsGrid/src/test/java/zest/uniquePathsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../UniquePathsGrid/src/test/java/zest/uniquePathsTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +25,7 @@
         <entry key="$PROJECT_DIR$/.." value="paul-climbingstairs-mergeksortedlists" />
       </map>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -85,8 +57,8 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "Merging main",
-    "last_opened_file_path": "C:/Dateien/EST/assignment02/EST_FS24_Assignment02/ClimbingStairs/pom.xml",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Dateien/EST/assignment02/EST_FS24_Assignment02/MergeKSortedLists",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -144,7 +116,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeKSortedListsTest.property_sortedness_10lists" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MergeKSortedListsTest.property_variable_size_lists" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mergeksortedlists-test" />
       <extension name="coverage">
         <pattern>
@@ -154,13 +126,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="zest" />
       <option name="MAIN_CLASS_NAME" value="zest.MergeKSortedListsTest" />
-      <option name="METHOD_NAME" value="property_sortedness_10lists(int,int)" />
+      <option name="METHOD_NAME" value="property_variable_size_lists(int)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeKSortedListsTest.test_one" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MergeKSortedListsTest.test_null_input" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mergeksortedlists-test" />
       <extension name="coverage">
         <pattern>
@@ -170,7 +142,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="zest" />
       <option name="MAIN_CLASS_NAME" value="zest.MergeKSortedListsTest" />
-      <option name="METHOD_NAME" value="test_one" />
+      <option name="METHOD_NAME" value="test_null_input" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -179,10 +151,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.MergeKSortedListsTest" />
+        <item itemvalue="JUnit.MergeKSortedListsTest.property_variable_size_lists" />
+        <item itemvalue="JUnit.MergeKSortedListsTest.test_null_input" />
         <item itemvalue="JUnit.MergeKSortedListsTest.property_sortedness_1000lists" />
         <item itemvalue="JUnit.MergeKSortedListsTest.property_sortedness_100lists" />
-        <item itemvalue="JUnit.MergeKSortedListsTest.property_sortedness_10lists" />
-        <item itemvalue="JUnit.MergeKSortedListsTest.test_one" />
       </list>
     </recent_temporary>
   </component>
@@ -201,6 +173,9 @@
       <workItem from="1712757024578" duration="1211000" />
       <workItem from="1712770348838" duration="11107000" />
       <workItem from="1712838574638" duration="9557000" />
+      <workItem from="1713277687016" duration="350000" />
+      <workItem from="1713342623312" duration="1318000" />
+      <workItem from="1713344244910" duration="6803000" />
     </task>
     <servers />
   </component>

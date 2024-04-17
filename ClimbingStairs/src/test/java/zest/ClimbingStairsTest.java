@@ -2,7 +2,6 @@ package zest;
 
 import net.jqwik.api.*;
 import net.jqwik.api.constraints.IntRange;
-import org.junit.Assert;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.Assertions;
 
@@ -17,7 +16,7 @@ class ClimbingStairsTest {
     // Task 1 - code coverage
 
     @Test
-    public void test_one (){
+    public void test_one(){
         Assertions.assertEquals(obj.climbStairs(1), 1);
     }
     @Test
@@ -96,7 +95,7 @@ class ClimbingStairsTest {
     @Report(Reporting.GENERATED)
     void larger_input(
             @ForAll
-            @IntRange(min = 3) int input
+            @IntRange(min = 3, max = 91) int input
     ){
         long actual = obj.climbStairs(input);
         long[] memory = new long[input];

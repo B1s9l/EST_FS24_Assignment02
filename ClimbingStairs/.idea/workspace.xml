@@ -4,7 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cd62da37-c3b5-4895-bec1-a1d6bf84dce7" name="Changes" comment="" />
+    <list default="true" id="cd62da37-c3b5-4895-bec1-a1d6bf84dce7" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documentation.md" beforeDir="false" afterPath="$PROJECT_DIR$/Documentation.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/zest/ClimbingStairsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/zest/ClimbingStairsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MergeKSortedLists/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MergeKSortedLists/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MergeKSortedLists/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MergeKSortedLists/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MergeKSortedLists/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MergeKSortedLists/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MergeKSortedLists/Documentation.md" beforeDir="false" afterPath="$PROJECT_DIR$/../MergeKSortedLists/Documentation.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,6 +25,20 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;paul891112&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="d6202dd9-2626-4f9f-98d9-4798817b87ae" />
+        <option name="url" value="https://github.com/B1s9l/EST_FS24_Assignment02.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -29,8 +56,9 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "paul-climbingstairs-mergeksortedlists",
-    "last_opened_file_path": "C:/Dateien/EST/assignment02/EST_FS24_Assignment02/ClimbingStairs/pom.xml",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Dateien/EST/assignment02/EST_FS24_Assignment02/MergeKSortedLists",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -40,7 +68,22 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.ClimbingStairsTest.less_or_equal_zero">
+  <component name="RunManager" selected="JUnit.ClimbingStairsTest">
+    <configuration name="ClimbingStairsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="climbingstairs-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="zest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="zest" />
+      <option name="MAIN_CLASS_NAME" value="zest.ClimbingStairsTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ClimbingStairsTest.larger_input" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="climbingstairs-test" />
       <extension name="coverage">
@@ -58,13 +101,14 @@
       </method>
     </configuration>
     <configuration name="ClimbingStairsTest.less_or_equal_zero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="climbingstairs-test" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="zest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="17" />
       <option name="PACKAGE_NAME" value="zest" />
       <option name="MAIN_CLASS_NAME" value="zest.ClimbingStairsTest" />
       <option name="METHOD_NAME" value="less_or_equal_zero(int)" />
@@ -105,29 +149,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClimbingStairsTest.test_hundred_pre" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="climbingstairs-test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="zest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="zest" />
-      <option name="MAIN_CLASS_NAME" value="zest.ClimbingStairsTest" />
-      <option name="METHOD_NAME" value="test_hundred_pre" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ClimbingStairsTest" />
         <item itemvalue="JUnit.ClimbingStairsTest.less_or_equal_zero" />
         <item itemvalue="JUnit.ClimbingStairsTest.test_91_pre" />
         <item itemvalue="JUnit.ClimbingStairsTest.larger_input" />
         <item itemvalue="JUnit.ClimbingStairsTest.test_92_pre" />
-        <item itemvalue="JUnit.ClimbingStairsTest.test_hundred_pre" />
       </list>
     </recent_temporary>
   </component>
@@ -144,6 +172,9 @@
       <workItem from="1712757011345" duration="5942000" />
       <workItem from="1712770338128" duration="2756000" />
       <workItem from="1712838572016" duration="968000" />
+      <workItem from="1713343810020" duration="180000" />
+      <workItem from="1713344036227" duration="103000" />
+      <workItem from="1713344160158" duration="2324000" />
     </task>
     <servers />
   </component>
