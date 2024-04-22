@@ -1,4 +1,4 @@
-## SortedArray2BST (Gianni)
+## SortedArray2BST
 ### 1. Code Coverage
 #### 1. Understanding Requirements
 From the task descriptions the requirements are clear.
