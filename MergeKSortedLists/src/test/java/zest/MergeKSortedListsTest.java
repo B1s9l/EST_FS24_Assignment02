@@ -2,6 +2,7 @@ package zest;
 
 import net.jqwik.api.*;
 import net.jqwik.api.constraints.IntRange;
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.Assertions;
 
@@ -13,13 +14,17 @@ import static org.assertj.core.api.Assertions.*;
 class MergeKSortedListsTest {
 
     //Task 1
-
-    MergeKSortedLists obj = new MergeKSortedLists();
+    private MergeKSortedLists obj;
     ListNode l1 = new ListNode(1, new ListNode(4, new ListNode(5)));
     ListNode l2 = new ListNode(1, new ListNode( 3, new ListNode(4)));
     ListNode l3 = new ListNode( 2, new ListNode(6));
     ListNode l4 = new ListNode( -100, new ListNode( 0, new ListNode(4)));
     ListNode l5 = new ListNode( -97, new ListNode( -80, new ListNode( -1, new ListNode(3))));
+
+    @BeforeEach
+    public void setUp(){
+        obj = new MergeKSortedLists();
+    }
 
     @Test
     public void test_example_linked_list(){
@@ -47,6 +52,14 @@ class MergeKSortedListsTest {
     }
 
     @Test
+    public void test_null_input(){
+        ListNode res = obj.mergeKLists(null);
+        Assertions.assertNull(res);
+        Assertions.assertNull(obj.mergeKLists(null));
+    }
+
+
+    @Test
     public void test_empty_node(){
         ListNode[] l = new ListNode[1];
         l[0] = new ListNode();
@@ -55,9 +68,9 @@ class MergeKSortedListsTest {
     }
 
     @Test
-    public void test_null_node_in_normal_list(){
+    public void test_empty_node_in_normal_list(){
         List<Integer> sol = new ArrayList<>(Arrays.asList(1, 1, 3, 4, 4, 5));
-        ListNode[] l = new ListNode[3];
+        ListNode[] l = new ListNode[4];
         l[0] = l1;
         l[1] = l2;
         l[2] = new ListNode();
@@ -165,6 +178,45 @@ class MergeKSortedListsTest {
     }
 
     @Property
+    void property_variable_size_lists(
+            @ForAll
+            @IntRange(min = 1, max = 100) int number_of_linked_lists
+    ){
+        obj = new MergeKSortedLists();
+        List<ListNode> list_of_linked_lists = new ArrayList<>();
+        for (int i=0; i<number_of_linked_lists; i++){
+            Arbitrary<Integer> size = Arbitraries.integers().between(1, 100);
+            list_of_linked_lists.add(linked_list(size.sample()));
+        }
+
+        ListNode[] l = list_of_linked_lists.toArray(new ListNode[0]);
+
+        List<Integer> expected = new ArrayList<>();
+        for(int i=0; i<l.clone().length; i++){
+            ListNode k = l.clone()[i];
+            while(k != null){
+                expected.add(k.val);
+                k = k.next;
+            }
+        }
+
+        ListNode actual = obj.mergeKLists(l.clone());
+
+        Collections.sort(expected);
+
+        ListNode final_runner = actual;
+
+        int i = 0;
+        while(final_runner != null && i < expected.size()){
+            assertThat(final_runner.val).isEqualTo(expected.get(i));
+            final_runner = final_runner.next;
+            i++;
+        }
+
+
+    }
+
+    @Property
     @Report(Reporting.GENERATED)
     void property_sortedness_10lists(
             @ForAll
@@ -172,6 +224,7 @@ class MergeKSortedListsTest {
             @ForAll
             @IntRange(min = 0, max = 1000) int length
     ){
+        obj = new MergeKSortedLists();
         List<ListNode> list_of_linked_lists = generate_list_of_head_nodes(size, length);
 
 
@@ -218,8 +271,9 @@ class MergeKSortedListsTest {
             @ForAll
             @IntRange(min = 0, max = 100) int length
     ){
-        List<ListNode> list_of_linked_lists = generate_list_of_head_nodes(size, length);
+        obj = new MergeKSortedLists();
 
+        List<ListNode> list_of_linked_lists = generate_list_of_head_nodes(size, length);
 
         ListNode[] l = list_of_linked_lists.toArray(new ListNode[0]);
 
@@ -231,7 +285,6 @@ class MergeKSortedListsTest {
                 k = k.next;
             }
         }
-
         ListNode actual = obj.mergeKLists(l.clone());
 
         Collections.sort(expected);
@@ -255,7 +308,6 @@ class MergeKSortedListsTest {
             assertThat(final_runner).isNull();
             assertThat(i).isEqualTo(0);
         }
-
     }
 
     @Property
@@ -265,6 +317,8 @@ class MergeKSortedListsTest {
             @ForAll
             @IntRange(min = 0, max = 10) int length
     ){
+        obj = new MergeKSortedLists();
+
         List<ListNode> list_of_linked_lists = generate_list_of_head_nodes(size, length);
 
         ListNode[] l = list_of_linked_lists.toArray(new ListNode[0]);
@@ -301,7 +355,6 @@ class MergeKSortedListsTest {
             assertThat(final_runner).isNull();
             assertThat(i).isEqualTo(0);
         }
-
     }
 
     @Property
@@ -311,6 +364,7 @@ class MergeKSortedListsTest {
             @ForAll
             @IntRange(min=11, max=20) int length
             ){
+        obj = new MergeKSortedLists();
 
         List<ListNode> list_of_linked_lists = generate_list_of_head_nodes(size, length);
 
@@ -361,7 +415,6 @@ class MergeKSortedListsTest {
 
         return head;
     }
-
 
 
 

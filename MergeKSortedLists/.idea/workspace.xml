@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="75ebdd93-86ee-4f8e-b6f4-b3a3e1afd871" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClimbingStairs/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ClimbingStairs/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClimbingStairs/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ClimbingStairs/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClimbingStairs/Documentation.md" beforeDir="false" afterPath="$PROJECT_DIR$/../ClimbingStairs/Documentation.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClimbingStairs/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ClimbingStairs/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ClimbingStairs/src/test/java/zest/ClimbingStairsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ClimbingStairs/src/test/java/zest/ClimbingStairsTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="paul-climbingstairs-mergeksortedlists" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;paul891112&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="d6202dd9-2626-4f9f-98d9-4798817b87ae" />
+        <option name="url" value="https://github.com/B1s9l/EST_FS24_Assignment02.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2eXPuOa1mUVK9ORiU2BVZCxidPU" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Dateien/EST/assignment02/EST_FS24_Assignment02/MergeKSortedLists",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="JUnit.MergeKSortedListsTest">
+    <configuration name="MergeKSortedListsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mergeksortedlists-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="zest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="zest" />
+      <option name="MAIN_CLASS_NAME" value="zest.MergeKSortedListsTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MergeKSortedListsTest.property_sortedness_1000lists" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mergeksortedlists-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="zest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="zest" />
+      <option name="MAIN_CLASS_NAME" value="zest.MergeKSortedListsTest" />
+      <option name="METHOD_NAME" value="property_sortedness_1000lists(int,int)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MergeKSortedListsTest.property_sortedness_100lists" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mergeksortedlists-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="zest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="zest" />
+      <option name="MAIN_CLASS_NAME" value="zest.MergeKSortedListsTest" />
+      <option name="METHOD_NAME" value="property_sortedness_100lists(int,int)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MergeKSortedListsTest.property_variable_size_lists" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mergeksortedlists-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="zest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="zest" />
+      <option name="MAIN_CLASS_NAME" value="zest.MergeKSortedListsTest" />
+      <option name="METHOD_NAME" value="property_variable_size_lists(int)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MergeKSortedListsTest.test_null_input" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mergeksortedlists-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="zest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="zest" />
+      <option name="MAIN_CLASS_NAME" value="zest.MergeKSortedListsTest" />
+      <option name="METHOD_NAME" value="test_null_input" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MergeKSortedListsTest" />
+        <item itemvalue="JUnit.MergeKSortedListsTest.property_variable_size_lists" />
+        <item itemvalue="JUnit.MergeKSortedListsTest.test_null_input" />
+        <item itemvalue="JUnit.MergeKSortedListsTest.property_sortedness_1000lists" />
+        <item itemvalue="JUnit.MergeKSortedListsTest.property_sortedness_100lists" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="75ebdd93-86ee-4f8e-b6f4-b3a3e1afd871" name="Changes" comment="" />
+      <created>1712048173058</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1712048173058</updated>
+      <workItem from="1712048174443" duration="16761000" />
+      <workItem from="1712230315542" duration="1238000" />
+      <workItem from="1712320333338" duration="863000" />
+      <workItem from="1712664843611" duration="1400000" />
+      <workItem from="1712757024578" duration="1211000" />
+      <workItem from="1712770348838" duration="11107000" />
+      <workItem from="1712838574638" duration="9557000" />
+      <workItem from="1713277687016" duration="350000" />
+      <workItem from="1713342623312" duration="1318000" />
+      <workItem from="1713344244910" duration="6803000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
