@@ -1,0 +1,12 @@
+[INFO] Results:
+[INFO]
+[INFO] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0
+[INFO]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  05:23 min
+[INFO] Finished at: 2024-04-15T22:37:12+02:00
+[INFO] ------------------------------------------------------------------------
+
+Process finished with exit code 0
