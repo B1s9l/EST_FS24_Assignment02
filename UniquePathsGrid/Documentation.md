@@ -1,7 +1,37 @@
 ## UniquePathsGrid (Gianni)
 ### 1. Code Coverage
-Since the code of uniquePaths does not contain any branches, achieving 100 % line and branch coverage can be done with just one test,
-and it does not even matter which numbers one chooses since they are constrained to be >= 1 and <= 100 therefor the loops will always execute, immediately resulting in 100% code coverage. I added 4 tests for this function tho in order to verify that the function also works correctly for bigger numbers(which might be redundant).
+#### 1. Understanding Requirements
+From the task descriptions the requirements are clear.
+#### 2. Exploring the program
+Given two arbitrary integers both in range [1,100], the program should output the correct number of unique paths within this grid.
+Everything seems to work fine except for large numbers I do not get the right answer.
+#### 3. Identify partitions
+a) Input with Integers which are negative
+function returns weird results, maybe boundary conditions should be introduced.
+b) Input with Integers both exceeding boundary
+result is sometimes positive and sometimes negative, should maybe be validated also.
+c) Output:
+Should always be a result greater than 0, which is not the case.
+#### 4. Boundaries
+if input is negative, should notify user that he is not allowed to do that.
+Numbers exceeding 100, should notify user that he is not allowed to do that.
+Both numbers within range [1,100], should output non-negative correct number of unique paths.
+#### 5. Devising test cases
+Should atleast devise one test case which verifies that if both numbers are within the range of the specified input, should output a correct result.
+Since this function does not contain any branches, 2 or 3 cases which verify this might be beneficial since refactoring could introduce an if statement possibly catching this one test case.
+Not necessarily needed. 1 input where n is smaller than one and one where n is larger, should return an error.
+#### 6. Automating
+Manually compute the expected result and compare to the program output.
+#### 7. Augment Test Suite
+
+To cover boundary cases and adhere to precondition, more cases are identified. See section Task 3 for more detail on the augmented test suite.
+
+#### 8. Structural Testing
+
+100% line coverage and branch coverage reached (see screenshot in asset folder)
+
+Only 1 test would suffice to achieve 100% coverage, I added 3 more to also cover future changes which might catch the one test if only one was present. Can be seen as redundant.
+
 ### 2. Designing Contracts
 As a precondition, as specified in the readme, both m and n have to be within the range [1,100], this can easily be verified with a simple if statement.
 

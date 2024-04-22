@@ -1,6 +1,42 @@
 ## SortedArray2BST (Gianni)
 ### 1. Code Coverage
-For this exercise, I achieve 100% branch and line coverage with two tests. The first one just tests a incomplete binary tree, could also be changed to a complete one(i added all of them but think they might be redundant) and a second test trying to convert an empty list.
+#### 1. Understanding Requirements
+From the task descriptions the requirements are clear.
+#### 2. Exploring the program
+Given a sorted array in non decreasing order where the array does not contain duplicates, the function should convert this array into a well formed balanced BST.
+#### 3. Identify partitions
+a) Input
+Empty array
+array not sorted
+array sorted but not unique
+array sorted and unique
+
+b) Interactions
+Should always split the array as good as possible and recurse down to the left and to the right in order to get a tree which is as balanced as possible.
+
+c) Output:
+Should always be a BST which contains the same elements as the input array and is as balanced as possible.
+#### 4. Boundaries
+If the length of the input array exceeds 10^4, the user should be notified that he cannot do that.
+
+If the array is empty, should return null.
+
+If the array is sorted and unique, should output a correct BST which is balanced.
+#### 5. Devising test cases
+Input where the length of the array is larger than 10^4 should result in error.
+Devise one test case for each input specified in task 2. 
+#### 6. Automating
+Manually compute the expected result BST and compare to the program output.
+#### 7. Augment Test Suite
+
+To cover boundary cases and adhere to precondition, more cases are identified. See section Task 3 for more detail on the augmented test suite.
+
+#### 8. Structural Testing
+
+100% line coverage and branch coverage reached (see screenshot in asset folder)
+
+Only 2 tests would suffice to achieve 100% coverage, I added 3 more to also cover future changes which might catch the one test if only one was present. Can be seen as redundant.
+
 ### 2. Designing Contracts
 As a precondition, as specified the readme, the valid length of the array is within [0,10000], if this does not hold, an exception is thrown. As an additional precondition we have that the input array itself cannot be null, which can be easily verified aswell. The last two preconditions which have to hold are that the input array cannot contain duplicates and it has to be sorted in ascending order.
 
@@ -18,4 +54,14 @@ testnotSorted: verifies that exception is thrown if input array not sorted
 
 As one might realise is that after adding the invariant and postconditions, i cannot achieve 100% branch coverage anymore, since i cannot violate the postconditions and invariants.
 ### 4. Property-Based Testing
-Every result of this function must have 5 properties, 1: it must be a binary search tree, 2: it cannot contain duplicates, 3: its hight can differ at most one, 4: the inorder traversal of the resulting tree must result in a sorted array and 5: the resulting binary tree must have the same number of elements as the input. By verifying all these properties, we know that the resulted tree must be correct.
+Every result of this function must have 5 properties,
+
+1: it must be a binary search tree, 
+
+2: it cannot contain duplicates, 
+
+3: its hight can differ at most one, 
+
+4: the inorder traversal of the resulting tree must result in a sorted array and
+
+5: the resulting binary tree must have the same number of elements as the input. By verifying all these properties, we know that the resulted tree must be correct.
