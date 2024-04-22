@@ -83,8 +83,8 @@ class SortedArrayToBSTTest {
     }
     @Provide
     Arbitrary<int[]> uniqueSortedIntArray() {
-        return Arbitraries.integers().between(0, 10000)
-                .list().uniqueElements().map(list -> {
+        return Arbitraries.integers().between(0, 100000)
+                .list().ofMinSize(0).ofMaxSize(10000).uniqueElements().map(list -> {
                     int[] array = list.stream().mapToInt(Integer::intValue).toArray();
                     Arrays.sort(array);
                     return array;
